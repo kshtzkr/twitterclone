@@ -55,4 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :test do
   gem 'capybara', '~> 2.15', '>= 2.15.1'
+  gem 'shoulda-matchers', '~> 3.1', '>= 3.1.2'  
+  gem 'rails-controller-testing', '~> 1.0', '>= 1.0.2'
 end
