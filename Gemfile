@@ -26,6 +26,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'mongo', '~> 2.4', '>= 2.4.3'
 gem 'mongoid', '~> 6.2', '>= 6.2.1'
 gem 'bson', '~> 4.2', '>= 4.2.2'
+gem 'devise', '~> 4.3'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
@@ -57,4 +58,5 @@ group :test do
   gem 'capybara', '~> 2.15', '>= 2.15.1'
   gem 'shoulda-matchers', '~> 3.1', '>= 3.1.2'  
   gem 'rails-controller-testing', '~> 1.0', '>= 1.0.2'
+  gem 'database_cleaner', '~> 1.6', '>= 1.6.1'
 end
