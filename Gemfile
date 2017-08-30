@@ -27,6 +27,9 @@ gem 'mongo', '~> 2.4', '>= 2.4.3'
 gem 'mongoid', '~> 6.2', '>= 6.2.1'
 gem 'bson', '~> 4.2', '>= 4.2.2'
 gem 'devise', '~> 4.3'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+gem 'jquery', '~> 0.0.1'  
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
