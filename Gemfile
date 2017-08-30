@@ -59,4 +59,7 @@ group :test do
   gem 'shoulda-matchers', '~> 3.1', '>= 3.1.2'  
   gem 'rails-controller-testing', '~> 1.0', '>= 1.0.2'
   gem 'database_cleaner', '~> 1.6', '>= 1.6.1'
+  gem 'factory_girl_rails', '~> 4.8'
+  gem 'faker', '~> 1.8', '>= 1.8.4'
+  gem 'launchy', '~> 2.4', '>= 2.4.3'
 end

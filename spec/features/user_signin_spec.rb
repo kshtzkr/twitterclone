@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'user signing in' do
 	# before(:each) do
-		let(:user) { User.create!(email: "example@gmail.com", password: 'password', password_confirmation: 'password')}
+		let(:user) { create(:user)}
 	# end
 	scenario 'successfully' do
 		sign_in user

@@ -7,7 +7,7 @@ class User
 
   has_many :posts, dependent: :destroy
   
-  delegate :username, to: :user       
+  delegate :username, to: :user, :allow_nil => true       
   field :username       
 
   ## Database authenticatable
