@@ -1,0 +1,3 @@
+<h1>Profile for <%= @user.email %></h1>
+<%= image_tag @user.avatar.url(:thumb) if @user.avatar? %>
+<%= link_to 'edit', edit_user_path(@user)  %>

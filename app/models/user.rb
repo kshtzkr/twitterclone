@@ -6,8 +6,10 @@ class User
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :posts, dependent: :destroy
+  field :avatar , type: String
+  mount_uploader :avatar, AvatarUploader
   
-  delegate :username, to: :user, :allow_nil => true       
+  # delegate :username, to: :user, :allow_nil => true       
   field :username       
 
   ## Database authenticatable

@@ -30,6 +30,10 @@ gem 'devise', '~> 4.3'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'jquery', '~> 0.0.1'  
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+gem 'carrierwave'
+gem 'carrierwave-mongoid' 
+gem 'rmagick', '~> 2.16'
+gem 'mini_magick'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
