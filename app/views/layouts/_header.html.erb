@@ -2,9 +2,9 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Twitter</a>
       <ul class="nav navbar-nav navbar-right">
-    	 <li><%= link_to 'Write a story', new_post_path, :class => "w3-button w3-black w3-round-xxlarge" %></li>        
+    	 <li><%= link_to 'tweet', new_post_path, class: "btn btn-info", style: 'border-radius: 24%;  border-image-width: 54% ;font-weight: bold;;height: 46px; top: 9px; border-top-width: 0px;' %></li>        
         <%if user_signed_in?%>
-          <li><%= link_to current_user.email, user_path(current_user.id) %></li>
+          <li><%= link_to avatar_for(current_user, size: 50), user_path(current_user.id) %></li>
           <li><%= link_to 'sign out', destroy_user_session_path, method: :delete %></li>
         <% else %>
           <li><%= link_to 'Signin / Signup', new_user_session_path %></li>

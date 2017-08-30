@@ -7,6 +7,7 @@ class User
 
   has_many :posts, dependent: :destroy
   field :avatar , type: String
+  field :description , type: String
   mount_uploader :avatar, AvatarUploader
   
   # delegate :username, to: :user, :allow_nil => true       
