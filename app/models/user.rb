@@ -5,6 +5,9 @@ class User
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
+  has_many :posts, dependent: :destroy
+  
+  delegate :username, to: :user       
   field :username       
 
   ## Database authenticatable
